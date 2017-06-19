@@ -12,8 +12,9 @@ public class MainClass {
 		
 		vm.refillColumn(1, "Coke", 1);
 		vm.refillColumn(2, "Beer", 10);
-		vm.refillColumn(3, "Coke", 15);
-		vm.refillColumn(4, "Water", 20);
+		vm.refillColumn(1, "Coke", 1);
+		vm.refillColumn(2, "Beer", 10);
+
 		
 		System.out.println(vm.availableCans("Coke"));
 		
